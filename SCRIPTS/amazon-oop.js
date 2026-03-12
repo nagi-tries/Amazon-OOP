@@ -74,4 +74,6 @@ class StoreUI {
 
 }
 
-new StoreUI();
+document.addEventListener("DOMContentLoaded", () => {
+  new StoreUI();
+});
