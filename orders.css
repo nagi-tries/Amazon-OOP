@@ -1,0 +1,95 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f3f3f3;
+}
+
+/* HEADER */
+.amazon-header {
+  background: #131921;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.amazon-logo {
+  height: 30px;
+}
+
+.header-middle {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+/* MAIN CONTAINER */
+.main-container {
+  padding: 40px;
+}
+
+/* ORDER CARD */
+.order-card {
+  background: white;
+  border-radius: 6px;
+  margin-bottom: 40px;
+  border: 1px solid #ddd;
+}
+
+/* ORDER HEADER SECTION */
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+  background: #f0f2f2;
+  border-bottom: 1px solid #ddd;
+  font-size: 14px;
+}
+
+.order-header div {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-header strong {
+  font-weight: 600;
+}
+
+/* PRODUCT LIST */
+.order-products {
+  padding: 20px;
+}
+
+/* PRODUCT ITEM */
+.order-item {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.product-image {
+  width: 100px;
+  height: auto;
+}
+
+.product-info {
+  font-size: 14px;
+}
+
+.product-name {
+  font-weight: 600;
+  margin-bottom: 6px;
+}
+
+.product-price {
+  margin-bottom: 6px;
+}
+
+.product-quantity {
+  color: #555;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ddd;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Checkout</title>
+  <link rel="stylesheet" href="checkout.css">
+</head>
+<body>
+
+  <!-- AMAZON HEADER -->
+  <div class="amazon-header">
+    <div class="header-left">
+      <img src="amazon-logo-white.png" class="amazon-logo">
+    </div>
+
+    <div class="header-middle">
+      Checkout (<span class="js-items-count">0</span> items)
+    </div>
+
+    <div class="header-right">
+      🔒
+    </div>
+  </div>
+
+  <div class="main-container">
+
+    <!-- LEFT SIDE -->
+    <div class="checkout-left">
+      <h3>Review your order</h3>
+      <div class="js-cart-items"></div>
+    </div>
+
+    <!-- RIGHT SIDE -->
+    <div class="checkout-right">
+      <div class="summary-box">
+
+        <h3>Order Summary</h3>
+
+        <div class="row">
+          <span>Items:</span>
+          <span>$<span class="js-items-total">0.00</span></span>
+        </div>
+
+        <div class="row">
+          <span>Shipping & handling:</span>
+          <span>$0.00</span>
+        </div>
+
+        <div class="row">
+          <span>Total before tax:</span>
+          <span>$<span class="js-before-tax">0.00</span></span>
+        </div>
+
+        <div class="row">
+          <span>Estimated tax (10%):</span>
+          <span>$<span class="js-tax">0.00</span></span>
+        </div>
+
+        <hr>
+
+        <div class="total-row">
+          <span>Order total:</span>
+          <span>$<span class="js-final-total">0.00</span></span>
+        </div>
+
+        <button class="place-order js-place-order">
+          Place your order
+        </button>
+
+      </div>
+    </div>
+
+  </div>
+
+<script type="module" src="SCRIPTS/checkout-oop.js"></script>
+</body>
+</html>
