@@ -114,4 +114,6 @@ class CheckoutUI {
 
 }
 
-new CheckoutUI();
+document.addEventListener("DOMContentLoaded", () => {
+  new CheckoutUI();
+});
